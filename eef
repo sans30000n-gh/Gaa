@@ -20,7 +20,6 @@ del C:\Users\Public\Desktop\Telegram.exe
 C:\Users\Public\Desktop\Winrar.exe /S
 C:\Users\Public\Desktop\steam.exe /S
 C:\Users\runneradmin\Desktop\GRID.exe /S
-C:\Users\runneradmin\Desktop\Steamtools.exe /S
 C:\Users\runneradmin\Desktop\parsecsetup.exe /S
 del C:\Users\Public\Desktop\Winrar.exe
 del /f "C:\Users\Public\Desktop\Epic Games Launcher.lnk"
