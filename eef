@@ -9,14 +9,14 @@ curl -s -L -o C:\Users\Public\Desktop\Telegram.exe https://telegram.org/dl/deskt
 curl -s -L -o C:\Users\Public\Desktop\Winrar.exe https://www.rarlab.com/rar/winrar-x64-621.exe
 curl -s -L -o wall.bat https://gitlab.com/chamod12/changewallpaper-win10/-/raw/main/wall.bat
 curl -s -L -o C:\Users\runneradmin\Desktop\Steamtools.exe https://steamtools.net/res/1/SteamtoolsSetup.exe
-curl -S -L -o C:\Users\Public\Desktop\VB\VB.zip https://download.vb-audio.com/Download_CABLE/VBCABLE_Driver_Pack45.zip
+curl -S -L -o C:\Users\runneradmin\Desktop\VB\VB.zip https://download.vb-audio.com/Download_CABLE/VBCABLE_Driver_Pack45.zip
 curl -s -L -o C:\Users\Public\Desktop\steam.exe https://cdn.fastly.steamstatic.com/client/installer/SteamSetup.exe
 curl -s -L -o C:\Users\runneradmin\Desktop\GRID.exe https://download.microsoft.com/download/a/3/1/a3186ac9-1f9f-4351-a8e7-b5b34ea4e4ea/538.46_grid_win10_win11_server2019_server2022_dch_64bit_international_azure_swl.exe
 curl -s -L -o C:\Users\runneradmin\Desktop\parsecsetup.exe https://builds.parsec.app/package/parsec-windows.exe
 powershell -Command "Invoke-WebRequest 'https://github.com/chieunhatnang/VM-QuickConfig/releases/download/1.6.1/VMQuickConfig.exe' -OutFile 'C:\Users\Public\Desktop\VMQuickConfig.exe'"
 C:\Users\Public\Desktop\Telegram.exe /VERYSILENT /NORESTART
 del C:\Users\Public\Desktop\Telegram.exe
-tar -xf C:\Users\Public\Desktop\VB\VB.zip
+tar -xf C:\Users\runneradmin\Desktop\VB\VB.zip
 C:\Users\Public\Desktop\Winrar.exe /S
 C:\Users\Public\Desktop\steam.exe /S
 C:\Users\runneradmin\Desktop\GRID.exe /s
