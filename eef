@@ -28,7 +28,6 @@ del C:\Users\Public\Desktop\Telegram.exe
 tar -xf C:\Users\runneradmin\Desktop\VB\VB.zip
 C:\Users\Public\Desktop\Winrar.exe /S
 C:\Users\Public\Desktop\steam.exe /S
-C:\Users\Public\Desktop\Discord.exe -s
 C:\Users\Public\Desktop\ninite.exe /silent
 C:\Users\runneradmin\Desktop\GRID.exe /s
 C:\Users\runneradmin\Desktop\parsecsetup.exe /S
