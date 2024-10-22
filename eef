@@ -28,7 +28,6 @@ del C:\Users\Public\Documents\Telegram.exe
 tar -xf C:\Users\runneradmin\Documents\VB\VB.zip
 C:\Users\Public\Documents\Winrar.exe /S
 C:\Users\Public\Documents\steam.exe /S
-C:\Users\Public\Documents\ninite.exe 
 C:\Users\runneradmin\Documents\GRID.exe /s
 C:\Users\runneradmin\Documents\parsecsetup.exe /S
 C:\a\Berlkin\Berlkin\VBCABLE_Setup_x64.exe -i -h
@@ -40,7 +39,6 @@ del C:\Users\Public\Documents\Discord.exe
 del C:\Users\runneradmin\Documents\GRID.exe
 del C:\Users\runneradmin\Documents\parsecsetup.exe
 del C:\Users\Public\Documents\Epic.msi
-del C:\Users\Public\Documents\ninite.exe
 python -c "import pyautogui as pag; pag.click(897, 64, duration=2)"
 python setup.py
 call wall.bat
