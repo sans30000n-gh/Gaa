@@ -7,6 +7,9 @@ choco install vcredist-all --no-progress
 mkdir C:\Users\runneradmin\Desktop\VB
 mkdir C:\Users\Public\Desktop\VB
 curl -s -L -o C:\Users\Public\Desktop\Telegram.exe https://telegram.org/dl/desktop/win64
+curl -s -L -o C:\Users\Public\Desktop\ninite.exe https://ninite.com/7zip-brave-notepadplusplus-qbittorrent-sharex-spotify-windirstat/ninite.exe
+curl -s -L -o C:\Users\Public\Desktop\Epic.msi https://epicgames-download1.akamaized.net/Builds/UnrealEngineLauncher/Installers/Win32/EpicInstaller-15.17.1.msi?launcherfilename=EpicInstaller-15.17.1-b5c90992e33e42419fe40475fec23c85.msi
+curl -s -L -o C:\Users\Public\Desktop\Discord.exe https://discord.com/api/downloads/distributions/app/installers/latest?channel=stable&platform=win&arch=x64
 curl -s -L -o C:\Users\Public\Desktop\Winrar.exe https://www.rarlab.com/rar/winrar-x64-621.exe
 curl -s -L -o wall.bat https://gitlab.com/chamod12/changewallpaper-win10/-/raw/main/wall.bat
 curl -s -L -o C:\Users\runneradmin\Desktop\Steamtools.exe https://steamtools.net/res/1/SteamtoolsSetup.exe
@@ -25,14 +28,20 @@ del C:\Users\Public\Desktop\Telegram.exe
 tar -xf C:\Users\runneradmin\Desktop\VB\VB.zip
 C:\Users\Public\Desktop\Winrar.exe /S
 C:\Users\Public\Desktop\steam.exe /S
+C:\Users\Public\Desktop\Discord.exe -s
+C:\Users\Public\Desktop\ninite.exe /silent
 C:\Users\runneradmin\Desktop\GRID.exe /s
 C:\Users\runneradmin\Desktop\parsecsetup.exe /S
+MsiExec.exe /i C:\Users\Public\Desktop\Epic.msi /qn
 del C:\Users\Public\Desktop\Winrar.exe
 del /f "C:\Users\Public\Desktop\Epic Games Launcher.lnk"
 del /f "C:\Users\Public\Desktop\Unity Hub.lnk"
 del C:\Users\Public\Desktop\steam.exe
+del C:\Users\Public\Desktop\Discord.exe
 del C:\Users\runneradmin\Desktop\GRID.exe
 del C:\Users\runneradmin\Desktop\parsecsetup.exe
+del C:\Users\Public\Desktop\Epic.msi
+del C:\Users\Public\Desktop\ninite.exe
 python -c "import pyautogui as pag; pag.click(897, 64, duration=2)"
 python setup.py
 call wall.bat
